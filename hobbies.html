@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="hobbies.css" />
+    <title>Photography</title>
+  </head>
+  <body>
+    <div class="contain">
+      <h1>I Love <em class="thin">Photography!</em>📸</h1>
+      <h2>
+        ✨ I especially like <em> <strong> vibrant </strong></em>
+        photos! ✨
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/541/original/pexels-engin-akyurt-1451040.jpg?1655451646"
+        alt="Different colored umbrellas"
+      />
+      <hr />
+      <p class="main">
+        <strong><span>Photography</span></strong> is the art, application, and
+        practice of creating durable images by recording light, either
+        electronically by means of an image sensor, or chemically by means of a
+        light-sensitive material such as photographic film.
+      </p>
+      <hr />
+      <br />
+      <a
+        href="https://en.wikipedia.org/wiki/Photography"
+        target="_blank"
+        class="wiki"
+      >
+        <strong> Learn more on Wikipedia </strong>
+      </a>
+      <button>Learn how to take pictures</button>
+      <p class="footer">
+        This website was built by
+        <a
+          class="portfolio"
+          href="https://sites.google.com/view/adetomilayo-v-odugbemi/home"
+          target="_blank"
+        >
+          Tomi Odugbemi
+        </a>
+      </p>
+    </div>
+  </body>
+  <script>
+    function photography() {
+      let name = prompt("What is your name? 🤔");
+      let email = prompt(
+        "What is your email? 💭 (I won't spam you 📨, I promise)"
+      );
+      let photo = prompt(
+        "On a scale from 1-10, how good of a photographer are you? 📷"
+      );
+
+      if (photo > 5) {
+        alert("OoOo! I bet your photos  SLAYYYYYY " + name + "! 💖😍💖");
+      } else {
+        alert(
+          "OoOfFf 😐. Well, " +
+            name +
+            " that's what I'm here for. After a few photo lessons... You'll be a ✨pro!✨"
+        );
+      }
+    }
+
+    let button = document.querySelector("button");
+    button.addEventListener("click", photography);
+  </script>
+</html>

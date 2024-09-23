@@ -1,0 +1,108 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: #085f63;
+  background: #49beb7;
+  border: 1px solid #085f63;
+  border-radius: 20px;
+}
+
+h2 {
+  border: 1px solid #facf5a;
+  padding: 20px 20px;
+  font-size: 26px;
+  border-radius: 40px;
+  font-weight: lighter;
+  color: #facf5a;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 40px;
+  border: 2px dashed black;
+}
+
+p {
+  line-height: 30px;
+}
+
+button {
+  display: block;
+  margin: 16px auto;
+  font-size: 18px;
+  padding: 15px 20px 15px 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 3px black;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ff5959;
+  color: #8b1d1d;
+  transition: ease-in-out 200ms;
+  border: 1px solid #8b1d1d;
+  box-shadow: 5px 5px 3px #8b1d1d;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.main {
+  font-size: 18px;
+  color: white;
+}
+
+.wiki {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.wiki:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #49beb7;
+  transition: ease-in-out 250ms;
+}
+
+.footer {
+  font-family: monospace;
+  font-size: 16px;
+  padding: 20px 25px 20px 25px;
+  color: white;
+}
+
+.portfolio {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.portfolio:hover {
+  text-decoration: underline;
+  color: #facf5a;
+  transition: ease-in-out 250ms;
+}
+
+.contain {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  border: 3px solid white;
+  border-radius: 2em 0;
+  background: rgba(0, 0, 0, 0.5);
+}
